@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(51, 51, 239);
+    gap: 10px;
+}
+
+.first h1{
+    color: white;
+}
+
+.second img{
+    width: 60px;
+    height: 60px;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    gap: 10px;
+    padding: 10px;
+}
+
+.second h3{
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.third .photo{
+    width:400px ;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.third .photo2{
+    width:400px ;
+    height: 500px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.third .photo3{
+    width:400px ;
+    height: 500px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: 100px;
+}
+
+.third .photo4{
+    width:400px ;
+    height: 500px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: 150px;
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 400px;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+}
+
+.bilezik{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottle{
+    display: flex;
+    flex-direction: row;
+}
+
+.monopoly{
+    display: flex;
+    flex-direction: row;
+}
+
+.biki{
+    display: flex;
+    flex-direction: row;
+}
+
+.big{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat( 2, auto);
+    gap: 60px; 
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.picture{
+    background-color: #f9f9f9;
+    padding: 30px;
+    text-align: center;
+    box-shadow:0 0 10px #666;
+    transform:matrix3d(400px);
+    cursor: pointer;
+    background-color: #ffffff;
+    max-width: 40rem;
+    box-shadow: 1px 1px 12px 1px rgb(75, 75, 75);
+    border-radius: 5px;
+    transition: all 250ms ease;
+}
+
+.big h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bolder;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.big .container .all .bilezik .bottle .monopoly .biki{
+    gap: 40px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #3548d6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.form-section, .table-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #1e70d5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #215aeb;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.picture h6{
+    color: black;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.picture h3{
+    color: green;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.picture p{
+    color: red;
+    font-weight:bolder;
+    font-size: larger;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+
+header {
+    background-color: #416fe1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Стили карточки товара */
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-card .price {
+    font-size: 1em;
+    color: #333;
+}
+
+.product-card .price span {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+}
+
+.product-card .discount {
+    font-size: 1em;
+    color: #416fe1;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Stack items vertically on smaller screens */
+        padding: 10px;
+    }
+
+    .product-card {
+        padding: 10px;
+    }
+
+    .first, .second {
+        flex-direction: column; /* Stack flex items vertically on smaller screens */
+        gap: 5px;
+    }
+
+    .second img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .third .photo, .third .photo2, .third .photo3, .third .photo4 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .first, .second, .big, .container {
+        flex-direction: column;
+    }
+
+    .product-card img {
+        width: 100%;
+        height: auto; 
+    }
+
+    .big {
+        padding: 20px;
+    }
+
+    .big h1 {
+        font-size: 1.5rem;
+    }
+
+    .big .button {
+        font-size: 1rem; 
+    }
+
+    .second img {
+        width: 40px;
+        height: 40px; 
+    }
+
+    .third .photo, .third .photo2, .third .photo3, .third .photo4 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    table, th, td {
+        font-size: 0.9em; 
+    }
+
+    header {
+        padding: 15px 0;
+        font-size: 1.2rem;
+    }
+}
